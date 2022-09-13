@@ -125,9 +125,7 @@ class Rational {
             else {
                 return  1;
             }
-
         }
-
         return -1;
     }
 

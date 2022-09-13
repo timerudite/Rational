@@ -76,6 +76,33 @@ public class RationalTest {
 
     @Test
     public void testCompareTo() {
+        Rational x = new Rational();
+        x.numerator = 1;
+        x.denominator = 2;
+        Rational y = new Rational();
+        y.numerator = 1;
+        y.denominator = 4;
 
+        // Current rational number is less than the given number case
+        Assert.assertEquals(-1, y.compareTo(x));
+
+        // Current rational number is equal to the given number
+        Assert.assertEquals(0, x.compareTo(x));
+
+        // Current rational number is larger than the given number
+        Assert.assertEquals(1, x.compareTo(y));
+    }
+
+    @Test
+    public void testToString() {
+        Rational x = new Rational();
+        x.numerator = 1;
+        x.denominator = 2;
+        Rational y = new Rational();
+        y.numerator = 1;
+        y.denominator = 4;
+
+        Assert.assertEquals("1/2", x.toString());
+        Assert.assertEquals("1/4", y.toString());
     }
 }
