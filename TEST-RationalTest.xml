@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Thanboons-MacBook-Air.local" name="RationalTest" skipped="0" tests="7" time="0.018" timestamp="2022-09-13T15:26:46">
+  <properties>
+    <property name="ant.library.dir" value="/Applications/IntelliJ IDEA.app/Contents/lib/ant/lib" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.specification.version" value="18" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="java.class.path" value="/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/java.base:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/java.compiler:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/java.datatransfer:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/java.desktop:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/java.instrument:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/java.logging:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/java.management:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/java.management.rmi:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/java.naming:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/java.net.http:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/java.prefs:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/java.rmi:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/java.scripting:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/java.se:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/java.security.jgss:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/java.security.sasl:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/java.smartcardio:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/java.sql:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/java.sql.rowset:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/java.transaction.xa:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/java.xml:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/java.xml.crypto:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.accessibility:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.attach:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.charsets:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.compiler:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.crypto.cryptoki:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.crypto.ec:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.dynalink:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.editpad:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.hotspot.agent:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.httpserver:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.incubator.foreign:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.incubator.vector:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.internal.ed:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.internal.jvmstat:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.internal.le:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.internal.opt:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.internal.vm.ci:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.internal.vm.compiler:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.internal.vm.compiler.management:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.jartool:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.javadoc:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.jcmd:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.jconsole:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.jdeps:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.jdi:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.jdwp.agent:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.jfr:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.jlink:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.jpackage:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.jshell:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.jsobject:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.jstatd:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.localedata:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.management:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.management.agent:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.management.jfr:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.naming.dns:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.naming.rmi:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.net:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.nio.mapmode:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.random:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.sctp:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.security.auth:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.security.jgss:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.unsupported:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.unsupported.desktop:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.xml.dom:/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home!/jdk.zipfs:/Applications/IntelliJ IDEA.app/Contents/lib/ant/lib/ant.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.vendor.url" value="https://java.oracle.com/" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="java.vm.specification.version" value="18" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="TH" />
+    <property name="sun.boot.library.path" value="/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home/lib" />
+    <property name="sun.java.command" value="com.intellij.rt.ant.execution.AntMain2 -logger com.intellij.rt.ant.execution.IdeaAntLogger2 -inputhandler com.intellij.rt.ant.execution.IdeaInputHandler -buildfile /Users/thanaboon/Documents/1-2022/QA/Rational/build.xml test" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="jdk.debug" value="release" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="/Users/thanaboon" />
+    <property name="user.language" value="en" />
+    <property name="sun.stderr.encoding" value="UTF-8" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2022-08-18" />
+    <property name="java.home" value="/Users/thanaboon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home" />
+    <property name="basedir" value="/Users/thanaboon/Documents/1-2022/QA/Rational" />
+    <property name="file.separator" value="/" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="sun.stdout.encoding" value="UTF-8" />
+    <property name="ant.java.version" value="18" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="apple.awt.application.name" value="AntMain2" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.runtime.version" value="18.0.2.1+1-1" />
+    <property name="user.name" value="thanaboon" />
+    <property name="ant.file" value="/Users/thanaboon/Documents/1-2022/QA/Rational/build.xml" />
+    <property name="path.separator" value=":" />
+    <property name="os.version" value="12.5.1" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="ant.core.lib" value="/Applications/IntelliJ IDEA.app/Contents/lib/ant/lib/ant.jar" />
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+    <property name="java.io.tmpdir" value="/var/folders/11/_4vth8ds43v2jwv7bs1z52j40000gn/T/" />
+    <property name="java.version" value="18.0.2.1" />
+    <property name="user.dir" value="/Users/thanaboon/Documents/1-2022/QA/Rational" />
+    <property name="os.arch" value="aarch64" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.home" value="/Applications/IntelliJ IDEA.app/Contents/lib/ant" />
+    <property name="native.encoding" value="UTF-8" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+    <property name="java.library.path" value="/Users/thanaboon/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="java.vm.version" value="18.0.2.1+1-1" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.class.version" value="62.0" />
+  </properties>
+  <testcase classname="RationalTest" name="testAdd" time="0.002" />
+  <testcase classname="RationalTest" name="testSubtract" time="0.0" />
+  <testcase classname="RationalTest" name="testToString" time="0.002" />
+  <testcase classname="RationalTest" name="testCompareTo" time="0.0" />
+  <testcase classname="RationalTest" name="testDivide" time="0.0" />
+  <testcase classname="RationalTest" name="testEquals" time="0.0" />
+  <testcase classname="RationalTest" name="testMultiply" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
